@@ -34,7 +34,6 @@ python train_source.py --dset office-31 --s 0 --max_epoch 100 --trte val --gpu_i
 ```
 
 * Adapt to target (shown here for Office with target D)
-
 ```shell
 python train_source.py --dset office-31 --t 1 --max_epoch 15 --gpu_id 0 --cls_par 0.7 --crc_par 0.01 --output_src ckps/source/ --output ckps/CAiDA
 ```
@@ -53,9 +52,10 @@ python train_source.py --dset office-31 --t 1 --max_epoch 15 --gpu_id 0 --cls_pa
  volume = {34},
  year = {2021}
 }
-
 ```
+
 * You can also consider to read and cite our another domain adaptation related paper [Where and How to Transfer: Knowledge Aggregation-Induced Transferability Perception for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/document/9616392) accepted to TPAMI 2021.
+
 ```
 @ARTICLE{TPAMI2021_Dong,
   author={Dong, Jiahua and Cong, Yang and Sun, Gan and Fang, Zhen and Ding, Zhengming},
