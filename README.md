@@ -22,7 +22,7 @@ This is the implementation code of our paper "**Confident Anchor-Induced Multi-S
 * **Office Dataset:** Download the datasets [Office-31](https://drive.google.com/file/d/0B4IapRTv9pJ1WGZVd1VDMmhwdlE/view?resourcekey=0-gNMHVtZfRAyO_t2_WrOunA), [Office-Home](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw), [Office-Caltech](http://www.vision.caltech.edu/Image_Datasets/Caltech256/256_ObjectCategories.tar) from the official websites.
 * **Digits-Five Dataset:** Download the datasets [MNIST](http://yann.lecun.com/exdb/mnist/), [MNIST-M](https://github.com/VanushVaswani/keras_mnistm/releases/download/1.0/keras_mnistm.pkl.gz), [USPS](https://www.kaggle.com/datasets/bistaumanga/usps-dataset), [SVHN](http://ufldl.stanford.edu/housenumbers/), [Synthetic Digits](https://www.kaggle.com/datasets/prasunroy/synthetic-digits) from the official websites.
 * **DomainNet Dataset:** Download [DomainNet](http://ai.bu.edu/DomainNet/) from the official website.
-* Place these datasets in './datasets'.
+* Place these datasets in './data'.
 * Using gen_list.py to generate '.txt' file for each dataset (change dataset argument in the file accordingly).
 
 ## Training:
