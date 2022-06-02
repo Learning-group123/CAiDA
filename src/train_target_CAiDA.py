@@ -603,7 +603,7 @@ if __name__ == "__main__":
         if i != args.t:
             continue
 
-        folder = '/data1/djh/PyCharm_Project/MultiSourceFreeDomainAdaptation/Dataset/'
+        folder = './data'
         args.t_dset_path = folder + args.dset + '/' + names[args.t] + '_list.txt'
         args.test_dset_path = folder + args.dset + '/' + names[args.t] + '_list.txt'
         print(args.t_dset_path)
