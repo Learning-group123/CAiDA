@@ -35,7 +35,7 @@ python train_source.py --dset office-31 --s 0 --max_epoch 100 --trte val --gpu_i
 
 * Adapt to target (shown here for Office with target D)
 ```shell
-python train_source.py --dset office-31 --t 1 --max_epoch 15 --gpu_id 0 --cls_par 0.7 --crc_par 0.01 --output_src ckps/source/ --output ckps/CAiDA
+python train_target_CAiDA.py --dset office-31 --t 1 --max_epoch 15 --gpu_id 0 --cls_par 0.7 --crc_par 0.01 --output_src ckps/source/ --output ckps/CAiDA
 ```
 
 ## Citation:
