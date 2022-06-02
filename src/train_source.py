@@ -270,7 +270,7 @@ if __name__ == "__main__":
     random.seed(SEED)
     # torch.backends.cudnn.deterministic = True
 
-    folder = '/data1/djh/PyCharm_Project/MultiSourceFreeDomainAdaptation/Dataset/'
+    folder = './data'
     args.s_dset_path = folder + args.dset + '/' + names[args.s] + '_list.txt'
     args.test_dset_path = folder + args.dset + '/' + names[args.t] + '_list.txt'     
 
@@ -294,7 +294,7 @@ if __name__ == "__main__":
         args.t = i
         args.name = names[args.s][0].upper() + names[args.t][0].upper()
 
-        folder = '/data1/djh/PyCharm_Project/MultiSourceFreeDomainAdaptation/Dataset/'
+        folder = './data'
         args.s_dset_path = folder + args.dset + '/' + names[args.s] + '_list.txt'
         args.test_dset_path = folder + args.dset + '/' + names[args.t] + '_list.txt'
 
