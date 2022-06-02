@@ -4,8 +4,8 @@
 
 This is the implementation code of our paper "**Confident Anchor-Induced Multi-Source Free Domain Adaptation**" accepted by [NeurIPS-2021](https://nips.cc/Conferences/2021). 
 
-## Overview of The Proposed Model
-![overview](./fig/overview.png)
+## Overview of The CAiDA Model
+![overview](./figs/NeurIPS_overview.png)
 
 
 ## Requirements:
@@ -39,11 +39,11 @@ python train_source.py --dset office-31 --s 0 --max_epoch 100 --trte val --gpu_i
 python train_source.py --dset office-31 --t 1 --max_epoch 15 --gpu_id 0 --cls_par 0.7 --crc_par 0.01 --output_src ckps/source/ --output ckps/CAiDA
 ```
 
-## Citation
-If you find this code is useful to your research, please consider to cite our paper.
+## Citation:
+* If you find this code is useful to your research, please consider to cite our paper.
 
 ```
-@inproceedings{NEURIPS2021_168908dd,
+@inproceedings{NEURIPS2021_Dong,
  author = {Dong, Jiahua and Fang, Zhen and Liu, Anjin and Sun, Gan and Liu, Tongliang},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
@@ -53,7 +53,11 @@ If you find this code is useful to your research, please consider to cite our pa
  volume = {34},
  year = {2021}
 }
-@ARTICLE{9616392,
+
+```
+* You can also consider to read and cite our another domain adaptation related paper [Where and How to Transfer: Knowledge Aggregation-Induced Transferability Perception for Unsupervised Domain Adaptation](https://ieeexplore.ieee.org/document/9616392) accepted to TPAMI 2021.
+```
+@ARTICLE{TPAMI2021_Dong,
   author={Dong, Jiahua and Cong, Yang and Sun, Gan and Fang, Zhen and Ding, Zhengming},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Where and How to Transfer: Knowledge Aggregation-Induced Transferability Perception for Unsupervised Domain Adaptation}, 
