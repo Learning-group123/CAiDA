@@ -1,7 +1,7 @@
 import os 
 
 dataset = 'office-31'
-dataset_path = '/data1/djh/PyCharm_Project/MultiSourceFreeDomainAdaptation/Dataset'
+dataset_path = './Dataset'
 
 if dataset == 'office-31':
 	domains = ['amazon', 'dslr', 'webcam']
